@@ -1,7 +1,6 @@
 <template>
-  <div data-theme="light">
+  <div data-theme="cmyk">
       <NuxtLayout>
-        <button class="btn btn-primary">Button</button>
         <NuxtPage />
       </NuxtLayout>
   </div>
