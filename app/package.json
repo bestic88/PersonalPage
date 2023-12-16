@@ -10,6 +10,8 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@egoist/tailwindcss-icons": "^1.7.1",
+    "@iconify/json": "^2.2.158",
     "@nuxt/devtools": "latest",
     "@nuxtjs/color-mode": "^3.3.2",
     "@nuxtjs/tailwindcss": "^6.10.1",

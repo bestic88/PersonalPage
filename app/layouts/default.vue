@@ -17,18 +17,19 @@
           <li><a>Item 3</a></li>
         </ul>
       </div>
-      <a class="btn btn-ghost text-primary text-xl">Home</a>
+      <NuxtLink to='/'><a class="btn btn-ghost text-primary text-xl">Home</a></NuxtLink>
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
-        <li><a>Curriculum Vitae</a></li>
+        <li><a>About me</a></li>
         <li>
           <details>
-            <summary>Curriculum Vitae</summary>
-            <ul class="p-2 z-50">
-              <li><a>Curriculum Vitae</a></li>
-              <li><a>
-                Sports biography</a></li>
+            <summary>Resume</summary>
+            <ul class="p-2 z-50 w-48">
+              <NuxtLink to='/personalResume'><li><a>
+                Personal Resume</a></li></NuxtLink>
+              <NuxtLink to='/sportlResume'><li><a>
+                Sport Resume</a></li></NuxtLink>
             </ul>
           </details>
         </li>
