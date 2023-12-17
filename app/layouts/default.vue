@@ -21,14 +21,14 @@
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
-        <li><a>About me</a></li>
+        <li><a>My work</a></li>
         <li>
           <details>
             <summary>Resume</summary>
             <ul class="p-2 z-50 w-48">
               <NuxtLink to='/personalResume'><li><a>
                 Personal Resume</a></li></NuxtLink>
-              <NuxtLink to='/sportlResume'><li><a>
+              <NuxtLink to='/sportResume'><li><a>
                 Sport Resume</a></li></NuxtLink>
             </ul>
           </details>
@@ -43,18 +43,7 @@
   <div>
     <slot />
   </div>
-
-<!--  <div class="flex flex-col h-screen">-->
-<!--    <div class="navbar bg-base-200">-->
-<!--      <div class='flex-1'>-->
-<!--        <NuxtLink to="/" class="btn btn-ghost text-primary normal-case text-xl">O mě</NuxtLink>-->
-<!--      </div>-->
-<!--    </div>-->
-
-<!--    <div class="bg-base-100 h-full">-->
-<!--      <slot />-->
-<!--    </div>-->
-<!--  </div>-->
+  <LayoutFooter />
 </template>
 <script setup lang="ts">
 </script>
