@@ -45,7 +45,7 @@
       <div>
         <h1 class="text-2xl font-bold mb-4">Work experience</h1>
         <h3 class="text-lg font-semibold">Web application development</h3>
-        <p class="text-sm w-100 text-gray-600">Hubio s.r.o, Ostrava (2020- present)</p>
+        <p class="text-sm w-100 text-gray-600">Hubio s.r.o, Ostrava (2020 - present)</p>
         <div class="p-4">
           <ul class="list-disc pl-4">
             <li>Software engineering application in the development of websites and applications using modern web
@@ -59,7 +59,7 @@
         </div>
         <div class="divider"></div>
         <h3 class="text-lg font-semibold">Shop manager</h3>
-        <p class="text-sm w-100 text-gray-600">4sport-florbal, Ostrava (2018-2021)</p>
+        <p class="text-sm w-100 text-gray-600">4sport-florbal, Ostrava (2018 - 2021)</p>
         <div class="p-4">
           <ul class="list-disc pl-4">
             <li>Management of the assortment in the floorball store.</li>
@@ -87,14 +87,14 @@
         <div>
           <h1 class="text-2xl font-bold mb-4">Education</h1>
           <h3 class="text-lg font-semibold">Bc, VSB - Technical University of Ostrava</h3>
-          <p class="text-sm w-100 text-gray-600">(2018- 2021)</p>
+          <p class="text-sm w-100 text-gray-600">(2018 - 2021)</p>
           <div class="mt-2">
             <p>Successfully completed bachelor's full-time study at the prestigious VSB - Technical University of
               Ostrava.</p>
           </div>
           <div class="divider"></div>
           <h3 class="text-lg font-semibold mt-4">Ing, VSB - Technical University of Ostrava</h3>
-          <p class="text-sm w-100 text-gray-600">(2021- 2023)</p>
+          <p class="text-sm w-100 text-gray-600">(2021 - 2023)</p>
           <div class="mt-2">
             <p>Successfully completed master's full-time study focused on software engineering.</p>
           </div>
