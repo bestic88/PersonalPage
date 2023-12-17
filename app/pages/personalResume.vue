@@ -89,7 +89,8 @@
           <h3 class="text-lg font-semibold">Bc, VSB - Technical University of Ostrava</h3>
           <p class="text-sm w-100 text-gray-600">(2018- 2021)</p>
           <div class="mt-2">
-            <p>Successfully completed bachelor's full-time study at the prestigious VSB - Technical University of Ostrava.</p>
+            <p>Successfully completed bachelor's full-time study at the prestigious VSB - Technical University of
+              Ostrava.</p>
           </div>
 
           <h3 class="text-lg font-semibold mt-4">Ing, VSB - Technical University of Ostrava</h3>
@@ -98,6 +99,74 @@
             <p>Successfully completed master's full-time study focused on software engineering.</p>
           </div>
 
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mx-auto">
+    <div class=" p-4">
+      <div>
+        <h1 class="text-2xl font-bold mb-4">Skils</h1>
+        <div class="grid grid-cols-4 gap-1">
+          <div>
+            <p><h2 class="text-xl">Software design</h2></p>
+            <p><h2 class="text-xl">PHP</h2></p>
+            <p><h2 class="text-xl">JavaScript</h2></p>
+            <p><h2 class="text-xl">TypeScript</h2></p>
+            <p><h2 class="text-xl">Git/Jira design</h2></p>
+            <p><h2 class="text-xl">HTML/CSS</h2></p>
+          </div>
+
+          <div>
+            <p>
+              <Rating :order='1' :rating='4'/>
+            </p>
+            <p>
+              <Rating :order='2' :rating='4'/>
+            </p>
+            <p>
+              <Rating :order='3' :rating='4'/>
+            </p>
+            <p>
+              <Rating :order='4' :rating='3'/>
+            </p>
+            <p>
+              <Rating :order='5' :rating='3'/>
+            </p>
+            <p>
+              <Rating :order='6' :rating='5'/>
+            </p>
+          </div>
+
+          <div>
+            <p><h2 class="text-xl">MySQL</h2></p>
+            <p><h2 class="text-xl">Python</h2></p>
+            <p><h2 class="text-xl">C#</h2></p>
+            <p><h2 class="text-xl">Teamwork</h2></p>
+            <p><h2 class="text-xl">Communication</h2></p>
+            <p><h2 class="text-xl">Agile development</h2></p>
+          </div>
+          <!-- ... -->
+          <div>
+            <p>
+              <Rating :order='7' :rating='3'/>
+            </p>
+            <p>
+              <Rating :order='8' :rating='3'/>
+            </p>
+            <p>
+              <Rating :order='9' :rating='3'/>
+            </p>
+            <p>
+              <Rating :order='10' :rating='5'/>
+            </p>
+            <p>
+              <Rating :order='11' :rating='5'/>
+            </p>
+            <p>
+              <Rating :order='12' :rating='3'/>
+            </p>
+          </div>
         </div>
       </div>
     </div>
