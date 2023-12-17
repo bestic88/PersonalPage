@@ -17,23 +17,23 @@
 
           <h2 class="text-2xl font-bold">Basic information</h2>
           <div class="mt-4 flex items-center">
-            <span class="i-mdi-home"></span>
+            <Icon class="text-xl" name="i-material-symbols-calendar-month" />
             <p class="ml-2">Birthday: 19.4.1999</p>
           </div>
           <div class="mt-4 flex items-center">
-            <span class="i-mdi-phone text-xl"></span>
+            <Icon class="text-xl" name="i-material-symbols-call" />
             <p class="ml-2">Phone: +420 777 781 718</p>
           </div>
           <div class="mt-4 flex items-center">
-            <span class="i-mdi-email text-xl"></span>
+            <Icon class="text-xl" name="i-material-symbols-mail" />
             <p class="ml-2">Email: bestji@seznam.cz</p>
           </div>
           <div class="mt-4 flex items-center">
-            <span class="i-mdi-place text-xl"></span>
+            <Icon class="text-xl" name="i-ic-baseline-place" />
             <p class="ml-2">Living: Mladá Boleslav/Ostrava</p>
           </div>
           <div class="mt-4 flex items-center">
-            <span class="i-mdi-drivers-license text-xl"></span>
+            <Icon class="text-xl" name="i-ic-sharp-directions-car" />
             <p class="ml-2">Driving license: B</p>
           </div>
         </div>
@@ -57,7 +57,7 @@
             <li>Modification and maintenance of created systems.</li>
           </ul>
         </div>
-
+        <div class="divider"></div>
         <h3 class="text-lg font-semibold">Shop manager</h3>
         <p class="text-sm w-100 text-gray-600">4sport-florbal, Ostrava (2018-2021)</p>
         <div class="p-4">
@@ -68,7 +68,7 @@
             <li>Stand sales at various sports events.</li>
           </ul>
         </div>
-
+        <div class="divider"></div>
         <h3 class="text-lg font-semibold">IT experience</h3>
         <p class="text-sm w-100 text-gray-600">RELIGIS s.r.o, Ostrava (2017)</p>
         <div class="p-4">
@@ -92,7 +92,7 @@
             <p>Successfully completed bachelor's full-time study at the prestigious VSB - Technical University of
               Ostrava.</p>
           </div>
-
+          <div class="divider"></div>
           <h3 class="text-lg font-semibold mt-4">Ing, VSB - Technical University of Ostrava</h3>
           <p class="text-sm w-100 text-gray-600">(2021- 2023)</p>
           <div class="mt-2">
