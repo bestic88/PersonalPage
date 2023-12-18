@@ -37,7 +37,7 @@
       </ul>
     </div>
     <div class="navbar-end">
-      <a class="btn btn-primary">Contact me</a>
+      <Contact :id="'modal_1'"/>
     </div>
   </div>
   <div>
@@ -46,4 +46,5 @@
   <LayoutFooter />
 </template>
 <script setup lang="ts">
+import Contact from "~/components/contact.vue";
 </script>

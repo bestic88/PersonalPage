@@ -46,8 +46,8 @@
   <div class="container mx-auto">
     <div class="py-6 p-4">
       <div>
-        <h1 class="text-2xl font-bold mb-4">Club history</h1>
-        <h3 class="text-lg font-semibold">FBK Škorpioni Ostrava</h3>
+        <h1 class="text-3xl font-bold mb-8">Club history</h1>
+        <h3 class="text-2xl font-semibold">FBK Škorpioni Ostrava</h3>
         <p class="text-sm w-100 text-gray-600">2005-2013</p>
         <div class="p-4">
           <ul class="list-disc pl-4">
@@ -59,7 +59,7 @@
 
         <div class="grid grid-flow-col">
           <div>
-            <h3 class="text-lg font-semibold">1. SC. Vítkovice</h3>
+            <h3 class="text-2xl font-semibold">1. SC. Vítkovice</h3>
             <p class="text-sm w-100 text-gray-600">2013-2023</p>
             <div class="p-4">
               <ul class="list-disc pl-4">
@@ -69,6 +69,11 @@
                 <li>2x Cup winner</li>
                 <li>1x Cup runner up</li>
               </ul>
+            </div>
+            <div class="h-96 carousel carousel-vertical mt-12 ml-12 mb-12 rounded-box">
+              <div class="carousel-item h-full">
+                <img src="/pictures/vitky.jpg" />
+              </div>
             </div>
           </div>
 
@@ -145,10 +150,10 @@
                   </tr>
                   <tr class="text font-bold">
                     <th class="font-normal">Sumarry</th>
-                    <td class="text-center">209</td>
+                    <td class="text-center">220</td>
                     <td class="text-center">91</td>
                     <td class="text-center">97</td>
-                    <td class="text-center">186</td>
+                    <td class="text-center">188</td>
                   </tr>
                   </tbody>
                 </table>
@@ -156,10 +161,8 @@
             </div>
           </div>
         </div>
-
-
         <div class="divider"></div>
-        <h3 class="text-lg font-semibold">Florbal MB</h3>
+        <h3 class="text-2xl font-semibold">Florbal MB</h3>
         <p class="text-sm w-100 text-gray-600">2023-present</p>
         <div class="p-4">
           <ul class="list-disc pl-4">
@@ -176,8 +179,8 @@
         <div>
           <div class="grid grid-flow-col">
             <div>
-              <h1 class="text-2xl font-bold mb-4">National teams</h1>
-              <h3 class="text-lg font-semibold">Junior national team</h3>
+              <h1 class="text-3xl font-bold mb-4">National teams</h1>
+              <h3 class="text-2xl font-semibold">Junior national team</h3>
               <p class="text-sm w-100 text-gray-600">2017</p>
               <div class="p-4">
                 <ul class="list-disc pl-4">
@@ -186,7 +189,7 @@
               </div>
 
 
-              <h3 class="text-lg font-semibold mt-4">Men's national team</h3>
+              <h3 class="text-2xl font-semibold mt-4">Men's national team</h3>
               <p class="text-sm w-100 text-gray-600">(2019 - present)</p>
               <div class="p-4">
                 <ul class="list-disc pl-4">

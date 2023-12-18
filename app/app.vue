@@ -1,7 +1,7 @@
 <template>
-  <div data-theme="cmyk">
+  <div data-theme="cmyk" class="flex flex-col min-h-screen">
       <NuxtLayout>
-        <NuxtPage />
+        <NuxtPage/>
       </NuxtLayout>
   </div>
 </template>
