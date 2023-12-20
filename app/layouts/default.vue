@@ -21,7 +21,7 @@
     </div>
     <div class="navbar-center hidden lg:flex">
       <ul class="menu menu-horizontal px-1">
-        <li><a>My work</a></li>
+        <NuxtLink to='/myWork'><li><a>My work</a></li></NuxtLink>
         <li>
           <details>
             <summary>Resume</summary>
@@ -33,7 +33,6 @@
             </ul>
           </details>
         </li>
-        <li><a>Item 3</a></li>
       </ul>
     </div>
     <div class="navbar-end">

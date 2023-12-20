@@ -1,0 +1,51 @@
+<script setup lang="ts">
+
+</script>
+
+<template>
+  <div class="container mx-auto px-4">
+    <div class="grid grid-cols-3 gap-4">
+      <div class="card card-compact w-96 bg-base-100 shadow-xl">
+        <figure class="bg-black"><img src="/pictures/autolaros.webp" alt="autolaros"/></figure>
+        <div class="card-body">
+          <h2 class="card-title">Autolaros</h2>
+          <p>Loading and filtering cars. Everything what is on subdom vozy.autolaros.cz.
+            Created in Slim framework with twig.</p>
+          <div class="card-actions justify-end">
+            <a href="https://vozy.autolaros.cz/Cars">
+              <button class="btn btn-primary">Check it</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-compact w-96 bg-base-100 shadow-xl">
+        <figure><img src="/pictures/sokol.jpg" alt="sokol"/></figure>
+        <div class="card-body">
+          <h2 class="card-title">Sokol Poruba</h2>
+          <p>Internal system. Not public.
+         Created in Slim framework with twig.</p>
+
+          <div class="card-actions justify-end">
+            <a href="https://www.sokolporuba.cz/">
+              <button class="btn btn-primary">Check it</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card card-compact w-96 bg-base-100 shadow-xl">
+        <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="diploma"/></figure>
+        <div class="card-body">
+          <h2 class="card-title">Final master thesis</h2>
+          <p>Not public. Graphical system for semi formal modeling of processes based on formal restriction.
+          Created in TypeScript. Frameworks Nuxt.js, Nest.js. Database MariaDB. If needed repository available.</p>
+          <div class="card-actions justify-end">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</template>
