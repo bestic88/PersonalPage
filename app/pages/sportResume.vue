@@ -1,5 +1,8 @@
 <script setup lang="ts">
 
+import RepreStatistics from "~/components/tables/repreStatistics.vue";
+import VitkyStatistics from "~/components/tables/vitkyStatistics.vue";
+import BolkaStatistics from "~/components/tables/bolkaStatistics.vue";
 </script>
 
 <template>
@@ -57,7 +60,7 @@
 
         <div class="divider"></div>
 
-        <div class="grid grid-flow-col">
+        <div class="grid grid-cols-2 grid-flow-col">
           <div>
             <h3 class="text-2xl font-semibold">1. SC. Vítkovice</h3>
             <p class="text-sm w-100 text-gray-600">2013-2023</p>
@@ -72,7 +75,7 @@
             </div>
             <div class="h-96 carousel carousel-vertical mt-12 ml-12 mb-12 rounded-box">
               <div class="carousel-item h-full">
-                <img src="/pictures/vitky.jpg" />
+                <img src="/pictures/vitky.jpg"/>
               </div>
             </div>
           </div>
@@ -80,95 +83,35 @@
           <div>
             <div>
               <h3 class="text-xl">A - team statistics</h3>
-              <div class="overflow-x-auto">
-                <table class="table table-md">
-                  <thead>
-                  <tr>
-                    <th>Season</th>
-                    <th class="text-center">Matches</th>
-                    <th class="text-center">Goals</th>
-                    <th class="text-center">Assists</th>
-                    <th class="text-center">Points</th>
-                  </tr>
-                  </thead>
-                  <tbody>
-                  <tr>
-                    <th>2023/2024</th>
-                    <td class="text-center">11</td>
-                    <td class="text-center">7</td>
-                    <td class="text-center">4</td>
-                    <td class="text-center">11</td>
-                  </tr>
-                  <tr>
-                    <th>2022/2023</th>
-                    <td class="text-center">35</td>
-                    <td class="text-center">19</td>
-                    <td class="text-center">15</td>
-                    <td class="text-center">34</td>
-                  </tr>
-                  <tr>
-                    <th>2021/2022</th>
-                    <td class="text-center">35</td>
-                    <td class="text-center">14</td>
-                    <td class="text-center">15</td>
-                    <td class="text-center">29</td>
-                  </tr>
-                  <tr>
-                    <th>2020/2021</th>
-                    <td class="text-center">34</td>
-                    <td class="text-center">17</td>
-                    <td class="text-center">13</td>
-                    <td class="text-center">30</td>
-                  </tr>
-                  <tr>
-                    <th>2019/2020</th>
-                    <td class="text-center">28</td>
-                    <td class="text-center">16</td>
-                    <td class="text-center">18</td>
-                    <td class="text-center">32</td>
-                  </tr>
-                  <tr>
-                    <th>2018/2019</th>
-                    <td class="text-center">33</td>
-                    <td class="text-center">9</td>
-                    <td class="text-center">20</td>
-                    <td class="text-center">29</td>
-                  </tr>
-                  <tr>
-                    <th>2017/2018</th>
-                    <td class="text-center">31</td>
-                    <td class="text-center">7</td>
-                    <td class="text-center">9</td>
-                    <td class="text-center">16</td>
-                  </tr>
-                  <tr>
-                    <th>2016/2017</th>
-                    <td class="text-center">13</td>
-                    <td class="text-center">2</td>
-                    <td class="text-center">3</td>
-                    <td class="text-center">5</td>
-                  </tr>
-                  <tr class="text font-bold">
-                    <th class="font-normal">Sumarry</th>
-                    <td class="text-center">220</td>
-                    <td class="text-center">91</td>
-                    <td class="text-center">97</td>
-                    <td class="text-center">188</td>
-                  </tr>
-                  </tbody>
-                </table>
-              </div>
+              <VitkyStatistics/>
             </div>
           </div>
         </div>
+
         <div class="divider"></div>
-        <h3 class="text-2xl font-semibold">Florbal MB</h3>
-        <p class="text-sm w-100 text-gray-600">2023-present</p>
-        <div class="p-4">
-          <ul class="list-disc pl-4">
-            <li>Season is still running.
-            </li>
-          </ul>
+
+        <div class="grid grid-cols-2 grid-flow-col">
+          <div>
+            <h3 class="text-2xl font-semibold">Florbal MB</h3>
+            <p class="text-sm w-100 text-gray-600">2023-present</p>
+            <div class="p-4">
+              <ul class="list-disc pl-4">
+                <li>Season is still running.
+                </li>
+              </ul>
+            </div>
+            <div class="h-96 carousel carousel-vertical mt-12 ml-12 mb-12 rounded-box">
+              <div class="carousel-item h-full">
+                <img src="/pictures/bolka.jpg"/>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h3 class="text-xl">A - team statistics</h3>
+              <BolkaStatistics/>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -177,7 +120,7 @@
     <div class="container mx-auto">
       <div class="py-6 p-4 mb-24">
         <div>
-          <div class="grid grid-flow-col">
+          <div class="grid grid-cols-2 grid-flow-col">
             <div>
               <h1 class="text-3xl font-bold mb-4">National teams</h1>
               <h3 class="text-2xl font-semibold">Junior national team</h3>
@@ -187,7 +130,6 @@
                   <li>First matches in national team.</li>
                 </ul>
               </div>
-
 
               <h3 class="text-2xl font-semibold mt-4">Men's national team</h3>
               <p class="text-sm w-100 text-gray-600">(2019 - present)</p>
@@ -202,56 +144,7 @@
             <div>
               <div>
                 <h3 class="text-xl">A - team statistics</h3>
-                <div class="overflow-x-auto">
-                  <table class="table table-md">
-                    <thead>
-                    <tr class="border-black">
-                      <th>Season</th>
-                      <th class="text-center">Matches</th>
-                      <th class="text-center">Goals</th>
-                      <th class="text-center">Assists</th>
-                      <th class="text-center">Points</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr class="border-black">
-                      <th>2023/2024</th>
-                      <td class="text-center">5</td>
-                      <td class="text-center">1</td>
-                      <td class="text-center">1</td>
-                      <td class="text-center">2</td>
-                    </tr>
-                    <tr class="border-black">
-                      <th>2022/2023</th>
-                      <td class="text-center">14</td>
-                      <td class="text-center">10</td>
-                      <td class="text-center">2</td>
-                      <td class="text-center">12</td>
-                    </tr>
-                    <tr class="border-black">
-                      <th>2021/2022</th>
-                      <td class="text-center">16</td>
-                      <td class="text-center">4</td>
-                      <td class="text-center">1</td>
-                      <td class="text-center">5</td>
-                    </tr>
-                    <tr class="border-black">
-                      <th>2019/2020</th>
-                      <td class="text-center">12</td>
-                      <td class="text-center">2</td>
-                      <td class="text-center">0</td>
-                      <td class="text-center">2</td>
-                    </tr>
-                    <tr class="text font-bold border-black">
-                      <th class="font-normal">Sumarry</th>
-                      <td class="text-center">47</td>
-                      <td class="text-center">17</td>
-                      <td class="text-center">4</td>
-                      <td class="text-center">21</td>
-                    </tr>
-                    </tbody>
-                  </table>
-                </div>
+                <RepreStatistics/>
               </div>
             </div>
           </div>
