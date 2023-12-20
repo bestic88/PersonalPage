@@ -132,7 +132,7 @@ import BolkaStatistics from "~/components/tables/bolkaStatistics.vue";
               </div>
 
               <h3 class="text-2xl font-semibold mt-4">Men's national team</h3>
-              <p class="text-sm w-100 text-gray-600">(2019 - present)</p>
+              <p class="text-sm w-100 text-gray-600">2019 - present</p>
               <div class="p-4">
                 <ul class="list-disc pl-4">
                   <li>Stable player of Czech national team.</li>

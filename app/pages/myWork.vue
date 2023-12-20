@@ -35,13 +35,12 @@
       </div>
 
       <div class="card card-compact w-96 bg-base-100 shadow-xl">
-        <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="diploma"/></figure>
+        <figure class="p-3"><img src="/pictures/logo.svg" alt="diploma"/></figure>
         <div class="card-body">
           <h2 class="card-title">Final master thesis</h2>
           <p>Not public. Graphical system for semi formal modeling of processes based on formal restriction.
           Created in TypeScript. Frameworks Nuxt.js, Nest.js. Database MariaDB. If needed repository available.</p>
           <div class="card-actions justify-end">
-            <button class="btn btn-primary">Buy Now</button>
           </div>
         </div>
       </div>

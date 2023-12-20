@@ -113,7 +113,7 @@
             <p><h2 class="text-xl">PHP</h2></p>
             <p><h2 class="text-xl">JavaScript</h2></p>
             <p><h2 class="text-xl">TypeScript</h2></p>
-            <p><h2 class="text-xl">Git/Jira design</h2></p>
+            <p><h2 class="text-xl">Git/Jira</h2></p>
             <p><h2 class="text-xl">HTML/CSS</h2></p>
           </div>
 
