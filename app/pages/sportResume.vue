@@ -9,7 +9,7 @@ import BolkaStatistics from "~/components/tables/bolkaStatistics.vue";
   <div class="bg-base-200">
     <div class="container mx-auto">
       <div class="hero-content flex-col lg:flex-row-reverse">
-        <img src="/pictures/face.jpg" class="max-w-sm rounded-lg shadow-2xl"/>
+        <img src="/pictures/repre_hlava.jpg" class="max-w-sm rounded-lg shadow-2xl"/>
         <div>
           <h1 class="text-4xl font-bold">Ing. Jiří Besta</h1>
           <p class="py-6">My name is Jiří Besta I am 24 years old and I am currently playing for Florbal Mladá Boleslav.
@@ -139,6 +139,11 @@ import BolkaStatistics from "~/components/tables/bolkaStatistics.vue";
                   <li>1x World Championships runner up.</li>
                   <li>1x World Championships bronze medal.</li>
                 </ul>
+              </div>
+              <div class="h-96 carousel carousel-vertical mt-12 ml-12 mb-12 rounded-box">
+                <div class="carousel-item h-full">
+                  <img src="/pictures/repre.jpg"/>
+                </div>
               </div>
             </div>
             <div>
