@@ -4,8 +4,8 @@
 
 <template>
   <div class="container mx-auto px-4">
-    <div class="grid grid-cols-3 gap-4">
-      <div class="card card-compact w-96 bg-base-100 shadow-xl">
+    <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-3">
+      <div class="card card-compact w-50 bg-base-100 shadow-xl">
         <figure class="bg-black"><img src="/pictures/autolaros.webp" alt="autolaros"/></figure>
         <div class="card-body">
           <h2 class="card-title">Autolaros</h2>
@@ -19,7 +19,7 @@
         </div>
       </div>
 
-      <div class="card card-compact w-96 bg-base-100 shadow-xl">
+      <div class="card card-compact w-50 bg-base-100 shadow-xl">
         <figure><img src="/pictures/sokol.jpg" alt="sokol"/></figure>
         <div class="card-body">
           <h2 class="card-title">Sokol Poruba</h2>
@@ -34,7 +34,7 @@
         </div>
       </div>
 
-      <div class="card card-compact w-96 bg-base-100 shadow-xl">
+      <div class="card card-compact w-50 bg-base-100 shadow-xl">
         <figure class="p-3"><img src="/pictures/logo.svg" alt="diploma"/></figure>
         <div class="card-body">
           <h2 class="card-title">Final master thesis</h2>

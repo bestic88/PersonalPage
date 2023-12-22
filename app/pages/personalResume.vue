@@ -107,7 +107,7 @@
     <div class="p-4 py-6 mb-24 ">
       <div>
         <h1 class="text-2xl font-bold mb-4">Skils</h1>
-        <div class="grid grid-cols-4 gap-1">
+        <div class="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 grid-cols-2 gap-3">
           <div>
             <p><h2 class="text-xl">Software design</h2></p>
             <p><h2 class="text-xl">PHP</h2></p>
