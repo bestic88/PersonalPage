@@ -73,7 +73,7 @@ import BolkaStatistics from "~/components/tables/bolkaStatistics.vue";
                 <li>1x Cup runner up</li>
               </ul>
             </div>
-            <div class="h-96 carousel carousel-vertical mt-12 ml-12 mb-12 rounded-box">
+            <div class="h-96 carousel carousel-vertical m-1 rounded-box">
               <div class="carousel-item h-full">
                 <img src="/pictures/vitky.jpg"/>
               </div>
@@ -100,7 +100,7 @@ import BolkaStatistics from "~/components/tables/bolkaStatistics.vue";
                 </li>
               </ul>
             </div>
-            <div class="h-96 carousel carousel-vertical mt-12 ml-12 mb-12 rounded-box">
+            <div class="h-96 carousel carousel-vertical m-1 rounded-box">
               <div class="carousel-item h-full">
                 <img src="/pictures/bolka.jpg"/>
               </div>
@@ -140,7 +140,7 @@ import BolkaStatistics from "~/components/tables/bolkaStatistics.vue";
                   <li>1x World Championships bronze medal.</li>
                 </ul>
               </div>
-              <div class="h-96 carousel carousel-vertical mt-12 ml-12 mb-12 rounded-box">
+              <div class="h-96 carousel carousel-vertical m-1 rounded-box">
                 <div class="carousel-item h-full">
                   <img src="/pictures/repre.jpg"/>
                 </div>
