@@ -17,23 +17,23 @@
 
           <h2 class="text-2xl font-bold">Basic information</h2>
           <div class="mt-4 flex items-center">
-            <Icon class="text-xl" name="i-material-symbols-calendar-month" />
+            <Icon class="text-xl" name="i-material-symbols-calendar-month"/>
             <p class="ml-2">Birthday: 19.4.1999</p>
           </div>
           <div class="mt-4 flex items-center">
-            <Icon class="text-xl" name="i-material-symbols-call" />
+            <Icon class="text-xl" name="i-material-symbols-call"/>
             <p class="ml-2">Phone: +420 777 781 718</p>
           </div>
           <div class="mt-4 flex items-center">
-            <Icon class="text-xl" name="i-material-symbols-mail" />
+            <Icon class="text-xl" name="i-material-symbols-mail"/>
             <p class="ml-2">Email: bestji@seznam.cz</p>
           </div>
           <div class="mt-4 flex items-center">
-            <Icon class="text-xl" name="i-ic-baseline-place" />
+            <Icon class="text-xl" name="i-ic-baseline-place"/>
             <p class="ml-2">Living: Mladá Boleslav/Ostrava</p>
           </div>
           <div class="mt-4 flex items-center">
-            <Icon class="text-xl" name="i-ic-sharp-directions-car" />
+            <Icon class="text-xl" name="i-ic-sharp-directions-car"/>
             <p class="ml-2">Driving license: B</p>
           </div>
         </div>
@@ -107,64 +107,71 @@
     <div class="p-4 py-6 mb-24 ">
       <div>
         <h1 class="text-2xl font-bold mb-4">Skils</h1>
-        <div class="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 grid-cols-2 gap-3">
+        <div class="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-3">
           <div>
-            <p><h2 class="text-xl">Software design</h2></p>
-            <p><h2 class="text-xl">PHP</h2></p>
-            <p><h2 class="text-xl">JavaScript</h2></p>
-            <p><h2 class="text-xl">TypeScript</h2></p>
-            <p><h2 class="text-xl">Git/Jira</h2></p>
-            <p><h2 class="text-xl">HTML/CSS</h2></p>
+            <p class="flex items-center"><h2 class="text-xl w-72">Software design</h2>
+              <p class="flex items-center">
+                <Rating :order='1' :rating='4'/>
+              </p>
+            </p>
+            <p class="flex items-center"><h2 class="text-xl w-72">PHP</h2>
+              <p class="flex items-center">
+                <Rating :order='2' :rating='4'/>
+              </p>
+            </p>
+            <p class="flex items-center"><h2 class="text-xl w-72">JavaScript</h2>
+              <p class="flex items-center">
+                <Rating :order='3' :rating='4'/>
+              </p>
+            </p>
+            <p class="flex items-center"><h2 class="text-xl w-72">TypeScript</h2>
+              <p class="flex items-center">
+                <Rating :order='4' :rating='3'/>
+              </p>
+            </p>
+            <p class="flex items-center"><h2 class="text-xl w-72">Git/Jira</h2>
+              <p class="flex items-center">
+                <Rating :order='5' :rating='3'/>
+              </p>
+            </p>
+            <p class="flex items-center"><h2 class="text-xl w-72">HTML/CSS</h2>
+              <p class="flex items-center">
+                <Rating :order='6' :rating='5'/>
+              </p>
+            </p>
           </div>
 
-          <div>
-            <p>
-              <Rating :order='1' :rating='4'/>
-            </p>
-            <p>
-              <Rating :order='2' :rating='4'/>
-            </p>
-            <p>
-              <Rating :order='3' :rating='4'/>
-            </p>
-            <p>
-              <Rating :order='4' :rating='3'/>
-            </p>
-            <p>
-              <Rating :order='5' :rating='3'/>
-            </p>
-            <p>
-              <Rating :order='6' :rating='5'/>
-            </p>
-          </div>
 
           <div>
-            <p><h2 class="text-xl">MySQL</h2></p>
-            <p><h2 class="text-xl">Python</h2></p>
-            <p><h2 class="text-xl">C#</h2></p>
-            <p><h2 class="text-xl">Teamwork</h2></p>
-            <p><h2 class="text-xl">Communication</h2></p>
-            <p><h2 class="text-xl">Agile development</h2></p>
-          </div>
-          <!-- ... -->
-          <div>
-            <p>
-              <Rating :order='7' :rating='4'/>
+            <p class="flex items-center"><h2 class="text-xl w-72">MySQL</h2>
+              <p class="flex items-center">
+                <Rating :order='7' :rating='4'/>
+              </p>
             </p>
-            <p>
-              <Rating :order='8' :rating='3'/>
+            <p class="flex items-center"><h2 class="text-xl w-72">Python</h2>
+              <p class="flex items-center">
+                <Rating :order='8' :rating='3'/>
+              </p>
             </p>
-            <p>
-              <Rating :order='9' :rating='3'/>
+            <p class="flex items-center"><h2 class="text-xl w-72">C#</h2>
+              <p class="flex items-center">
+                <Rating :order='9' :rating='3'/>
+              </p>
             </p>
-            <p>
-              <Rating :order='10' :rating='5'/>
+            <p class="flex items-center"><h2 class="text-xl w-72">Teamwork</h2>
+              <p class="flex items-center">
+                <Rating :order='10' :rating='5'/>
+              </p>
             </p>
-            <p>
-              <Rating :order='11' :rating='5'/>
+            <p class="flex items-center"><h2 class="text-xl w-72">Communication</h2>
+              <p class="flex items-center">
+                <Rating :order='11' :rating='5'/>
+              </p>
             </p>
-            <p>
-              <Rating :order='12' :rating='3'/>
+            <p class="flex items-center"><h2 class="text-xl w-72">Agile development</h2>
+              <p class="flex items-center">
+                <Rating :order='12' :rating='3'/>
+              </p>
             </p>
           </div>
         </div>

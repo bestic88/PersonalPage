@@ -75,7 +75,7 @@ import BolkaStatistics from "~/components/tables/bolkaStatistics.vue";
             </div>
             <div class="h-96 carousel carousel-vertical m-1 rounded-box">
               <div class="carousel-item h-full">
-                <img src="/pictures/vitky.jpg"/>
+                <img src="/pictures/vitky_2.jpg"/>
               </div>
             </div>
           </div>
