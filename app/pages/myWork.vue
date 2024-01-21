@@ -28,7 +28,7 @@
 
           <div class="card-actions justify-end">
             <a href="https://www.sokolporuba.cz/">
-              <button class="btn btn-primary">Check it</button>
+<!--              <button class="btn btn-primary">Check it</button>-->
             </a>
           </div>
         </div>
